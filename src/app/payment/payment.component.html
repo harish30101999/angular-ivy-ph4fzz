@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        PAYMENT FORM
+    </title>
+</head>
+
+<body style="background-color:rgb(53, 229, 235)"  > 
+ 
+    
+    
+    <form method="post" action="" style="text-align:center">
+        <h1>
+            PAYMENT FORM
+        </h1>
+       
+        <h2>
+            PAYMENT DETAILS
+        </h2>
+        
+        <section>
+        <P>
+            <label for="cardnumber">
+                <span>
+                    Cardnumber
+                </span>
+            </label>
+            <input type="number" id="pwd" name="cardnumber" required="true" />
+        </P>
+        <P>
+            <label for="expiry">
+                <span>
+                    Expiry Date
+                </span>
+            </label>
+            <input type="text" id="expoiration" name="expiry" required="true" placeholder="MM/YY" />
+        </P>
+        <P>
+            <label for="name">
+                <span>
+                    Name
+                </span>
+                <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="text" id="name" name="username" required="true" />
+        </P>
+        <P>
+            <label for="email">
+                <span>
+                    Email
+                </span>
+            </label>
+            <input type="email" id="mail" name="usermail" required="true" />
+        </P>
+        <P>
+            <label for="pwd">
+                <span>
+                    Password
+                </span>
+            </label>
+            <input type="password" id="pwd" name="pwd" required="true" />
+        </P>
+        </section>
+        <section>
+            <h1>
+                PAYMENT TYPE
+            </h1>
+            <P>
+                <label for="card">
+                    <span>
+                        Card Type
+                    </span>
+                </label>
+                <select name="Card" id="Card">
+                    <option value="Visa">
+                        Visa
+                    </option>
+                    <option value="RuPay">
+                        RuPay
+                    </option>
+                    <option value="upi">
+                        UPI
+                    </option>
+                </select>
+            </P>
+
+        </section>
+        <section>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </section>
+
+
+
+    </form>
+
+</body>
+
+</html>
